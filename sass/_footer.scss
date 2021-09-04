@@ -1,0 +1,13 @@
+footer {
+	background-color: $negro;
+	color: $blanco;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@media screen and (max-width: 768px) {
+	footer {
+		font-size: 10rem;
+	}
+}
